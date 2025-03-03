@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="">
+    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/example/homepage/service/FinServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/src/main/java/com/example/homepage/service/FinServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/SignupApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/SignupApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +35,9 @@
     &quot;accountId&quot;: &quot;c68b824f-762c-427c-8f3e-4a1dd5664ec4&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -44,6 +52,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.BudgetApplication.executor": "Run",
     "Application.HomepageApplication.executor": "Run",
+    "Application.SignupApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -78,6 +87,15 @@
       <option name="presentableId" value="Default" />
       <updated>1740979464030</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1740991221371</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740991221371</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,5 +108,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
