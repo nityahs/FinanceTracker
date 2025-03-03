@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="" />
+    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/src/main/java/com/example/Budget/BudgetApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/src/main/java/com/example/Budget/BudgetApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
