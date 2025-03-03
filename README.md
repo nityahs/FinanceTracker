@@ -52,7 +52,7 @@ Budget Microservice (8083)
 
 2. Login Page
 
--> User login using Email and Password.\n
+-> User login using Email and Password.
 -> On successful login, fetch all transactions related to the user.
 -> Returns user-specific transactions in JSON format.
 -> Invalid login attempts return an error message.
