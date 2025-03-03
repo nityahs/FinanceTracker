@@ -1,4 +1,4 @@
-package com.example.homepage.service.impl;
+package com.example.homepage.service;
 
 import com.example.homepage.entity.FinEntity;
 import com.example.homepage.repository.FinRepo;
