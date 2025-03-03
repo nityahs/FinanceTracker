@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="" />
+    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/SignupApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/SignupApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -21,12 +36,12 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/nityahs/FinanceTracker.git&quot;,
-    &quot;accountId&quot;: &quot;c68b824f-762c-427c-8f3e-4a1dd5664ec4&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nityahs/FinanceTracker.git",
+    "accountId": "52af5494-cfd3-46ce-be4c-4debf2f72ce4"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -41,6 +56,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.BudgetApplication.executor": "Run",
     "Application.HomepageApplication.executor": "Run",
+    "Application.SignupApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
