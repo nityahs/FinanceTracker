@@ -7,6 +7,10 @@
         <option value="$PROJECT_DIR$/homepage/pom.xml" />
         <option value="$PROJECT_DIR$/Budget/pom.xml" />
         <option value="$PROJECT_DIR$/signup/pom.xml" />
+        <option value="$PROJECT_DIR$/api_gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka_lab5/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka_server/pom.xml" />
       </list>
     </option>
   </component>

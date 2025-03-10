@@ -1,0 +1,383 @@
+Index: eureka_server/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.application.name=eureka_server\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/eureka_server/src/main/resources/application.properties b/eureka_server/src/main/resources/application.properties
+--- a/eureka_server/src/main/resources/application.properties	(revision eba7ac794011456f664643bb5073d271a14d2f19)
++++ b/eureka_server/src/main/resources/application.properties	(date 1741620437798)
+@@ -1,1 +1,4 @@
+ spring.application.name=eureka_server
++server.port=8761
++eureka.client.register-with-eureka=false
++eureka.client.fetch-registry=false
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_03-03-2025_13_47__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_03-03-2025_13_47__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_03-03-2025_13_47__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_03-03-2025_13_47__Changes_.xml	(revision eba7ac794011456f664643bb5073d271a14d2f19)
++++ /dev/null	(revision eba7ac794011456f664643bb5073d271a14d2f19)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_03-03-2025_13_47_[Changes]" date="1740989897966" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03-03-2025_13_47_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 03-03-2025 13:47 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_03-03-2025_13_47_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_03-03-2025_13_47_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_03-03-2025_13_47_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_03-03-2025_13_47_[Changes]/shelved.patch	(revision eba7ac794011456f664643bb5073d271a14d2f19)
++++ /dev/null	(revision eba7ac794011456f664643bb5073d271a14d2f19)
+@@ -1,123 +0,0 @@
+-Index: .idea/compiler.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"Budget\" />\r\n        <module name=\"homepage\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n  </component>\r\n  <component name=\"JavacSettings\">\r\n    <option name=\"ADDITIONAL_OPTIONS_OVERRIDE\">\r\n      <module name=\"Budget\" options=\"-parameters\" />\r\n      <module name=\"homepage\" options=\"-parameters\" />\r\n    </option>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+---- a/.idea/compiler.xml	(revision 80d2a2bb417fbbcaf0fdaee287f0cead55916244)
+-+++ b/.idea/compiler.xml	(date 1740989822710)
+-@@ -6,6 +6,7 @@
+-         <sourceOutputDir name="target/generated-sources/annotations" />
+-         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+-         <outputRelativeToContentRoot value="true" />
+-+        <module name="signup" />
+-         <module name="Budget" />
+-         <module name="homepage" />
+-       </profile>
+-@@ -14,7 +15,8 @@
+-   <component name="JavacSettings">
+-     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+-       <module name="Budget" options="-parameters" />
+--      <module name="homepage" options="-parameters" />
+-+      <module name="homepage" options="" />
+-+      <module name="signup" options="-parameters" />
+-     </option>
+-   </component>
+- </project>
+-\ No newline at end of file
+-Index: .idea/encodings.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Encoding\">\r\n    <file url=\"file://$PROJECT_DIR$/Budget/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/homepage/src/main/java\" charset=\"UTF-8\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+---- a/.idea/encodings.xml	(revision 80d2a2bb417fbbcaf0fdaee287f0cead55916244)
+-+++ b/.idea/encodings.xml	(date 1740989822731)
+-@@ -3,5 +3,7 @@
+-   <component name="Encoding">
+-     <file url="file://$PROJECT_DIR$/Budget/src/main/java" charset="UTF-8" />
+-     <file url="file://$PROJECT_DIR$/homepage/src/main/java" charset="UTF-8" />
+-+    <file url="file://$PROJECT_DIR$/homepage/src/main/resources" charset="UTF-8" />
+-+    <file url="file://$PROJECT_DIR$/signup/src/main/java" charset="UTF-8" />
+-   </component>
+- </project>
+-\ No newline at end of file
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"892e60f8-8b59-4fb1-8785-50c5ddb2dbf7\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/homepage/src/main/java/com/example/homepage/HomepageApplication.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/homepage/src/main/java/com/example/homepage/HomepageApplication.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/homepage/target/classes/application.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/homepage/target/classes/application.properties\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/homepage/target/classes/com/example/homepage/HomepageApplication.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/homepage/target/classes/com/example/homepage/HomepageApplication.class\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {}\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/nityahs/FinanceTracker.git&quot;,\r\n    &quot;accountId&quot;: &quot;c68b824f-762c-427c-8f3e-4a1dd5664ec4&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2tnEViYu8Y1s473t68Vf9p8vGI2\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"Application.BudgetApplication.executor\": \"Run\",\r\n    \"Application.HomepageApplication.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/B108_Spring_MSA/FinanceTracker/Budget\",\r\n    \"project.structure.last.edited\": \"Project\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"892e60f8-8b59-4fb1-8785-50c5ddb2dbf7\" name=\"Changes\" comment=\"\" />\r\n      <created>1740979464030</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1740979464030</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 80d2a2bb417fbbcaf0fdaee287f0cead55916244)
+-+++ b/.idea/workspace.xml	(date 1740989822690)
+-@@ -4,12 +4,7 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="">
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/example/homepage/HomepageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/src/main/java/com/example/homepage/HomepageApplication.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/homepage/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/target/classes/application.properties" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/homepage/target/classes/com/example/homepage/HomepageApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/target/classes/com/example/homepage/HomepageApplication.class" afterDir="false" />
+--    </list>
+-+    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="" />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -32,6 +27,9 @@
+-     &quot;accountId&quot;: &quot;c68b824f-762c-427c-8f3e-4a1dd5664ec4&quot;
+-   }
+- }</component>
+-+  <component name="MarkdownSettingsMigration">
+-+    <option name="stateVersion" value="1" />
+-+  </component>
+-   <component name="ProjectColorInfo">{
+-   &quot;associatedIndex&quot;: 2
+- }</component>
+-@@ -46,13 +44,14 @@
+-     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-     "Application.BudgetApplication.executor": "Run",
+-     "Application.HomepageApplication.executor": "Run",
+-+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-     "RunOnceActivity.ShowReadmeOnStart": "true",
+-     "RunOnceActivity.git.unshallow": "true",
+-     "git-widget-placeholder": "main",
+-     "ignore.virus.scanning.warn.message": "true",
+-     "kotlin-language-version-configured": "true",
+--    "last_opened_file_path": "C:/B108_Spring_MSA/FinanceTracker/Budget",
+--    "project.structure.last.edited": "Project",
+-+    "last_opened_file_path": "C:/Users/Rushikesh/Desktop/FinanceTracker/signup",
+-+    "project.structure.last.edited": "Modules",
+-     "project.structure.proportion": "0.15",
+-     "project.structure.side.proportion": "0.2",
+-     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+-Index: .idea/misc.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/homepage/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/Budget/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_23\" default=\"true\" project-jdk-name=\"23\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/misc.xml b/.idea/misc.xml
+---- a/.idea/misc.xml	(revision 80d2a2bb417fbbcaf0fdaee287f0cead55916244)
+-+++ b/.idea/misc.xml	(date 1740989822703)
+-@@ -6,10 +6,11 @@
+-       <list>
+-         <option value="$PROJECT_DIR$/homepage/pom.xml" />
+-         <option value="$PROJECT_DIR$/Budget/pom.xml" />
+-+        <option value="$PROJECT_DIR$/signup/pom.xml" />
+-       </list>
+-     </option>
+-   </component>
+--  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="23" project-jdk-type="JavaSDK">
+-+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="23" project-jdk-type="JavaSDK">
+-     <output url="file://$PROJECT_DIR$/out" />
+-   </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"892e60f8-8b59-4fb1-8785-50c5ddb2dbf7\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/signup/target/classes/com/example/signup/SignupApplication.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/signup/target/classes/com/example/signup/SignupApplication.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/signup/target/classes/com/example/signup/controller/UserController.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/signup/target/classes/com/example/signup/controller/UserController.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/signup/target/classes/com/example/signup/entity/User.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/signup/target/classes/com/example/signup/entity/User.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/signup/target/classes/com/example/signup/repository/UserRepository.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/signup/target/classes/com/example/signup/repository/UserRepository.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserService.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserService.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserServiceImpl.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserServiceImpl.class\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {}\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/nityahs/FinanceTracker.git\",\r\n    \"accountId\": \"52af5494-cfd3-46ce-be4c-4debf2f72ce4\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2tnEViYu8Y1s473t68Vf9p8vGI2\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"Application.BudgetApplication.executor\": \"Run\",\r\n    \"Application.HomepageApplication.executor\": \"Run\",\r\n    \"Application.SignupApplication.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/B108_Spring_MSA/FinanceTracker/signup\",\r\n    \"project.structure.last.edited\": \"Project\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\">\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <module name=\"homepage\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <module name=\"homepage\" />\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"892e60f8-8b59-4fb1-8785-50c5ddb2dbf7\" name=\"Changes\" comment=\"\" />\r\n      <created>1740979464030</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1740979464030</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision eba7ac794011456f664643bb5073d271a14d2f19)
++++ b/.idea/workspace.xml	(date 1741620757837)
+@@ -4,28 +4,27 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="">
++    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="update">
++      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03-03-2025_13_47_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03-03-2025_13_47__Changes_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/SignupApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/SignupApplication.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/controller/UserController.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/entity/User.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/repository/UserRepository.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserService.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserServiceImpl.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Class" />
+-      </list>
+-    </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PUSH_TAGS">
++      <GitPushTagMode>
++        <option name="argument" value="--tags" />
++        <option name="title" value="All" />
++      </GitPushTagMode>
++    </option>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+         <entry key="$PROJECT_DIR$" value="main" />
+@@ -36,12 +35,22 @@
+   <component name="GitHubPullRequestSearchHistory">{
+   &quot;lastFilter&quot;: {}
+ }</component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/nityahs/FinanceTracker.git",
+-    "accountId": "52af5494-cfd3-46ce-be4c-4debf2f72ce4"
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/nityahs/FinanceTracker.git&quot;,
++    &quot;accountId&quot;: &quot;c68b824f-762c-427c-8f3e-4a1dd5664ec4&quot;
+   }
+-}]]></component>
++}</component>
++  <component name="MavenImportPreferences">
++    <option name="generalSettings">
++      <MavenGeneralSettings>
++        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
++      </MavenGeneralSettings>
++    </option>
++  </component>
++  <component name="ProblemsViewState">
++    <option name="selectedTabId" value="CurrentFile" />
++  </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 2
+ }</component>
+@@ -51,24 +60,25 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "Application.BudgetApplication.executor": "Run",
+-    "Application.HomepageApplication.executor": "Run",
+-    "Application.SignupApplication.executor": "Run",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "main",
+-    "ignore.virus.scanning.warn.message": "true",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/B108_Spring_MSA/FinanceTracker/signup",
+-    "project.structure.last.edited": "Project",
+-    "project.structure.proportion": "0.15",
+-    "project.structure.side.proportion": "0.2",
+-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;Application.BudgetApplication.executor&quot;: &quot;Run&quot;,
++    &quot;Application.EurekaApplication.executor&quot;: &quot;Run&quot;,
++    &quot;Application.HomepageApplication.executor&quot;: &quot;Run&quot;,
++    &quot;Application.SignupApplication.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/B108_Spring_MSA/FinanceTracker/eureka_server&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RunManager">
+     <configuration default="true" type="JetRunConfigurationType">
+       <module name="homepage" />
+@@ -91,6 +101,15 @@
+       <option name="presentableId" value="Default" />
+       <updated>1740979464030</updated>
+     </task>
++    <task id="LOCAL-00001" summary="update">
++      <option name="closed" value="true" />
++      <created>1740991221371</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1740991221371</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -104,4 +123,8 @@
+       </map>
+     </option>
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="update" />
++    <option name="LAST_COMMIT_MESSAGE" value="update" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"signup\" />\r\n        <module name=\"Budget\" />\r\n        <module name=\"homepage\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n  </component>\r\n  <component name=\"JavacSettings\">\r\n    <option name=\"ADDITIONAL_OPTIONS_OVERRIDE\">\r\n      <module name=\"Budget\" options=\"-parameters\" />\r\n      <module name=\"homepage\" options=\"-parameters\" />\r\n      <module name=\"signup\" options=\"-parameters\" />\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision eba7ac794011456f664643bb5073d271a14d2f19)
++++ b/.idea/compiler.xml	(date 1741619774704)
+@@ -6,15 +6,23 @@
+         <sourceOutputDir name="target/generated-sources/annotations" />
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
+-        <module name="signup" />
++        <module name="eureka_server" />
+         <module name="Budget" />
++        <module name="api_gateway" />
++        <module name="signup" />
+         <module name="homepage" />
+       </profile>
+     </annotationProcessing>
++    <bytecodeTargetLevel>
++      <module name="eureka" target="21" />
++    </bytecodeTargetLevel>
+   </component>
+   <component name="JavacSettings">
+     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+       <module name="Budget" options="-parameters" />
++      <module name="api_gateway" options="-parameters" />
++      <module name="eureka" options="-parameters" />
++      <module name="eureka_server" options="-parameters" />
+       <module name="homepage" options="-parameters" />
+       <module name="signup" options="-parameters" />
+     </option>
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/homepage/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/Budget/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/signup/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_23\" default=\"true\" project-jdk-name=\"23\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision eba7ac794011456f664643bb5073d271a14d2f19)
++++ b/.idea/misc.xml	(date 1741619774707)
+@@ -7,6 +7,10 @@
+         <option value="$PROJECT_DIR$/homepage/pom.xml" />
+         <option value="$PROJECT_DIR$/Budget/pom.xml" />
+         <option value="$PROJECT_DIR$/signup/pom.xml" />
++        <option value="$PROJECT_DIR$/api_gateway/pom.xml" />
++        <option value="$PROJECT_DIR$/eureka_lab5/pom.xml" />
++        <option value="$PROJECT_DIR$/eureka/pom.xml" />
++        <option value="$PROJECT_DIR$/eureka_server/pom.xml" />
+       </list>
+     </option>
+   </component>
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Encoding\">\r\n    <file url=\"file://$PROJECT_DIR$/Budget/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/homepage/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/signup/src/main/java\" charset=\"UTF-8\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+--- a/.idea/encodings.xml	(revision eba7ac794011456f664643bb5073d271a14d2f19)
++++ b/.idea/encodings.xml	(date 1741619774709)
+@@ -2,6 +2,9 @@
+ <project version="4">
+   <component name="Encoding">
+     <file url="file://$PROJECT_DIR$/Budget/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/api_gateway/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/eureka/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/eureka_server/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/homepage/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/signup/src/main/java" charset="UTF-8" />
+   </component>

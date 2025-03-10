@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Budget/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka_server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homepage/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/signup/src/main/java" charset="UTF-8" />
   </component>

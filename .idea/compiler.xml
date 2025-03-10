@@ -6,15 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="signup" />
+        <module name="eureka_server" />
         <module name="Budget" />
+        <module name="api_gateway" />
+        <module name="signup" />
         <module name="homepage" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Budget" options="-parameters" />
+      <module name="api_gateway" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="eureka_server" options="-parameters" />
       <module name="homepage" options="-parameters" />
       <module name="signup" options="-parameters" />
     </option>
