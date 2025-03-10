@@ -37,16 +37,19 @@ public class BudgetServiceImpl implements BudgetService {
 
     @Override
     public void deleteBudget(Long id) {
+
         budgetRepository.deleteById(id);
     }
 
     @Override
     public Budget getBudget(Long id) {
+
         return budgetRepository.findById(id).orElse(null);
     }
 
     @Override
     public List<Budget> getAllBudgets() {
+
         return budgetRepository.findAll();
     }
 }

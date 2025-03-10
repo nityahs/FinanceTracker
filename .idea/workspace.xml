@@ -4,27 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03-03-2025_13_47_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03-03-2025_13_47__Changes_.xml" beforeDir="false" />
+    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/src/main/java/com/example/Budget/BudgetApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/src/main/java/com/example/Budget/BudgetApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/src/main/java/com/example/Budget/service/BudgetServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/src/main/java/com/example/Budget/service/BudgetServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/target/classes/com/example/Budget/BudgetApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/classes/com/example/Budget/BudgetApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/target/classes/com/example/Budget/controller/BudgetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/classes/com/example/Budget/controller/BudgetController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/target/classes/com/example/Budget/entity/Budget.class" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/classes/com/example/Budget/entity/Budget.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/target/classes/com/example/Budget/repository/BudgetRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/classes/com/example/Budget/repository/BudgetRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/target/classes/com/example/Budget/service/BudgetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/classes/com/example/Budget/service/BudgetService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/target/classes/com/example/Budget/service/BudgetServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/classes/com/example/Budget/service/BudgetServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/src/main/java/com/example/eureka_server/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/src/main/java/com/example/eureka_server/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/example/homepage/HomepageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/src/main/java/com/example/homepage/HomepageApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/target/classes/com/example/homepage/HomepageApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/target/classes/com/example/homepage/HomepageApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/target/classes/com/example/homepage/service/impl/FinServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/signup/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/src/main/java/com/example/signup/SignupApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/signup/src/main/java/com/example/signup/SignupApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/signup/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/SignupApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/SignupApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/com/example/signup/service/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
     </option>
+  </component>
+  <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -38,19 +61,9 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/nityahs/FinanceTracker.git&quot;,
-    &quot;accountId&quot;: &quot;c68b824f-762c-427c-8f3e-4a1dd5664ec4&quot;
+    &quot;accountId&quot;: &quot;52af5494-cfd3-46ce-be4c-4debf2f72ce4&quot;
   }
 }</component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -60,25 +73,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.BudgetApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EurekaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomepageApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SignupApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/B108_Spring_MSA/FinanceTracker/eureka_server&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.ApiGatewayApplication.executor": "Run",
+    "Application.BudgetApplication.executor": "Run",
+    "Application.EurekaServerApplication.executor": "Run",
+    "Application.HomepageApplication.executor": "Run",
+    "Application.SignupApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/B108_Spring_MSA/FinanceTracker/signup",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="homepage" />
@@ -101,15 +115,6 @@
       <option name="presentableId" value="Default" />
       <updated>1740979464030</updated>
     </task>
-    <task id="LOCAL-00001" summary="update">
-      <option name="closed" value="true" />
-      <created>1740991221371</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1740991221371</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,9 +127,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
