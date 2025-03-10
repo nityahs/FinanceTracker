@@ -89,4 +89,6 @@ Budget Microservice (8083)
 4. Signup Microservice (Port: 8081)
 5. Homepage Microservice (Port: 8082)
 6. Budget Microservice (Port: 8083)
-7. Use Postman to test the endpoints.
+7. Eureka Microservice (Port: 8761)
+8. API_Gateway (Port: 9091)
+9. Use Postman to test the endpoints.
