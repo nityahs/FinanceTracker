@@ -1,0 +1,565 @@
+Index: signup/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.application.name=signup\r\nserver.port=8081\r\nspring.datasource.url=jdbc:mysql://localhost:3306/financetracker\r\nspring.datasource.username=root\r\nspring.datasource.password=root\r\n\r\nspring.jpa.hibernate.ddl-auto=update\r\nspring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver\r\nspring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect\r\n\r\n# Eureka Client Configuration\r\neureka.client.service-url.defaultZone=http://localhost:8761/eureka/\r\neureka.client.register-with-eureka=true\r\neureka.client.fetch-registry=true\r\n\r\nspring.jpa.show-sql=true
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/signup/src/main/resources/application.properties b/signup/src/main/resources/application.properties
+--- a/signup/src/main/resources/application.properties	(revision 7573a60337249ff3aa879cce973a07634be84bee)
++++ b/signup/src/main/resources/application.properties	(date 1744317349032)
+@@ -13,4 +13,9 @@
+ eureka.client.register-with-eureka=true
+ eureka.client.fetch-registry=true
+ 
+-spring.jpa.show-sql=true
+\ No newline at end of file
++spring.jpa.show-sql=true
++spring.config.import=optional:configserver:http://config-server:8888
++spring.profiles.active=default
++
++# Enable refresh
++management.endpoints.web.exposure.include=refresh
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"892e60f8-8b59-4fb1-8785-50c5ddb2dbf7\" name=\"Changes\" comment=\"application.properties update for docker\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/api_gateway/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/api_gateway/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/api_gateway/target/api_gateway-0.0.1-SNAPSHOT.jar\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/api_gateway/target/api_gateway-0.0.1-SNAPSHOT.jar.original\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/api_gateway/target/classes/application.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/api_gateway/target/classes/application.properties\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/api_gateway/target/maven-archiver/pom.properties\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/api_gateway/target/surefire-reports/TEST-com.example.api_gateway.ApiGatewayApplicationTests.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/api_gateway/target/surefire-reports/TEST-com.example.api_gateway.ApiGatewayApplicationTests.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/api_gateway/target/surefire-reports/com.example.api_gateway.ApiGatewayApplicationTests.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/api_gateway/target/surefire-reports/com.example.api_gateway.ApiGatewayApplicationTests.txt\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n        <option value=\"Dockerfile\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {}\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/nityahs/FinanceTracker.git&quot;,\r\n    &quot;accountId&quot;: &quot;c68b824f-762c-427c-8f3e-4a1dd5664ec4&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2tnEViYu8Y1s473t68Vf9p8vGI2\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;Application.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.BudgetApplication.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.EurekaServerApplication.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.HomepageApplication.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.SignupApplication.executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.Budget [clean].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.Budget [package].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.api_gateway [clean].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.api_gateway [package].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.eureka_server [clean].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.eureka_server [package].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.homepage [clean].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.homepage [package].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.signup [clean].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.signup [package].executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/B108_Spring_MSA/Lab13&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\">\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <module name=\"homepage\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <module name=\"homepage\" />\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"892e60f8-8b59-4fb1-8785-50c5ddb2dbf7\" name=\"Changes\" comment=\"\" />\r\n      <created>1740979464030</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1740979464030</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Updating for cleaning and package\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743755823705</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743755823705</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Updating for cleaning and package\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743756312523</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743756312523</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Dockerfile for each page\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743757020997</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743757020997</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"application.properties update for docker\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744308867296</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744308867296</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Updating for cleaning and package\" />\r\n    <MESSAGE value=\"Dockerfile for each page\" />\r\n    <MESSAGE value=\"application.properties update for docker\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"application.properties update for docker\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 7573a60337249ff3aa879cce973a07634be84bee)
++++ b/.idea/workspace.xml	(date 1744318833636)
+@@ -5,14 +5,22 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="application.properties update for docker">
++      <change afterPath="$PROJECT_DIR$/config-client/src/main/java/com/example/config_client/config_controller/ConfigController.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/api_gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/api_gateway/target/api_gateway-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/api_gateway/target/api_gateway-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Budget/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/src/main/resources/application.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Budget/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/classes/application.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/api_gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/src/main/resources/application.properties" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/api_gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/classes/application.properties" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/api_gateway/target/maven-archiver/pom.properties" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/api_gateway/target/surefire-reports/TEST-com.example.api_gateway.ApiGatewayApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/surefire-reports/TEST-com.example.api_gateway.ApiGatewayApplicationTests.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/api_gateway/target/surefire-reports/com.example.api_gateway.ApiGatewayApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/surefire-reports/com.example.api_gateway.ApiGatewayApplicationTests.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/eureka_server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/target/classes/application.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/homepage/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/src/main/resources/application.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/homepage/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/target/classes/application.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/signup/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/signup/src/main/resources/application.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/signup/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/application.properties" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -22,8 +30,8 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+-        <option value="Class" />
+         <option value="Dockerfile" />
++        <option value="Class" />
+       </list>
+     </option>
+   </component>
+@@ -53,36 +61,38 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;Application.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.BudgetApplication.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.HomepageApplication.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.SignupApplication.executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.Budget [clean].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.Budget [package].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.api_gateway [clean].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.api_gateway [package].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.eureka_server [clean].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.eureka_server [package].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.homepage [clean].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.homepage [package].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.signup [clean].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.signup [package].executor&quot;: &quot;Run&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/B108_Spring_MSA/Lab13&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "Application.ApiGatewayApplication.executor": "Run",
++    "Application.BudgetApplication.executor": "Run",
++    "Application.ConfigClientApplication.executor": "Run",
++    "Application.ConfigServerApplication.executor": "Run",
++    "Application.EurekaServerApplication.executor": "Run",
++    "Application.HomepageApplication.executor": "Run",
++    "Application.SignupApplication.executor": "Run",
++    "Maven.Budget [clean].executor": "Run",
++    "Maven.Budget [package].executor": "Run",
++    "Maven.api_gateway [clean].executor": "Run",
++    "Maven.api_gateway [package].executor": "Run",
++    "Maven.eureka_server [clean].executor": "Run",
++    "Maven.eureka_server [package].executor": "Run",
++    "Maven.homepage [clean].executor": "Run",
++    "Maven.homepage [package].executor": "Run",
++    "Maven.signup [clean].executor": "Run",
++    "Maven.signup [package].executor": "Run",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "git-widget-placeholder": "main",
++    "ignore.virus.scanning.warn.message": "true",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "C:/B108_Spring_MSA/FinanceTracker/config-client",
++    "project.structure.last.edited": "Project",
++    "project.structure.proportion": "0.15",
++    "project.structure.side.proportion": "0.2",
++    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+   }
+-}</component>
++}]]></component>
+   <component name="RunManager">
+     <configuration default="true" type="JetRunConfigurationType">
+       <module name="homepage" />
+Index: Budget/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.application.name=Budget\r\nserver.port=8083\r\nspring.datasource.url=jdbc:mysql://localhost:3306/financetracker\r\nspring.datasource.username=root\r\nspring.datasource.password=root\r\n\r\nspring.jpa.hibernate.ddl-auto=update\r\nspring.jpa.show-sql=true\r\nspring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver\r\nspring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect\r\n\r\n# Eureka Client Configuration\r\neureka.client.service-url.defaultZone=http://localhost:8761/eureka/\r\neureka.client.register-with-eureka=true\r\neureka.client.fetch-registry=true\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/Budget/src/main/resources/application.properties b/Budget/src/main/resources/application.properties
+--- a/Budget/src/main/resources/application.properties	(revision 7573a60337249ff3aa879cce973a07634be84bee)
++++ b/Budget/src/main/resources/application.properties	(date 1744317311254)
+@@ -14,3 +14,8 @@
+ eureka.client.register-with-eureka=true
+ eureka.client.fetch-registry=true
+ 
++spring.config.import=optional:configserver:http://config-server:8888
++spring.profiles.active=default
++
++# Enable refresh
++management.endpoints.web.exposure.include=refresh
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"eureka_server\" />\r\n        <module name=\"Budget\" />\r\n        <module name=\"api_gateway\" />\r\n        <module name=\"signup\" />\r\n        <module name=\"homepage\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n    <bytecodeTargetLevel>\r\n      <module name=\"eureka\" target=\"21\" />\r\n    </bytecodeTargetLevel>\r\n  </component>\r\n  <component name=\"JavacSettings\">\r\n    <option name=\"ADDITIONAL_OPTIONS_OVERRIDE\">\r\n      <module name=\"Budget\" options=\"-parameters\" />\r\n      <module name=\"api_gateway\" options=\"-parameters\" />\r\n      <module name=\"eureka\" options=\"-parameters\" />\r\n      <module name=\"eureka_server\" options=\"-parameters\" />\r\n      <module name=\"homepage\" options=\"-parameters\" />\r\n      <module name=\"signup\" options=\"-parameters\" />\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision 7573a60337249ff3aa879cce973a07634be84bee)
++++ b/.idea/compiler.xml	(date 1744318469986)
+@@ -6,6 +6,8 @@
+         <sourceOutputDir name="target/generated-sources/annotations" />
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
++        <module name="config-server" />
++        <module name="config-client" />
+         <module name="eureka_server" />
+         <module name="Budget" />
+         <module name="api_gateway" />
+@@ -21,6 +23,8 @@
+     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+       <module name="Budget" options="-parameters" />
+       <module name="api_gateway" options="-parameters" />
++      <module name="config-client" options="-parameters" />
++      <module name="config-server" options="-parameters" />
+       <module name="eureka" options="-parameters" />
+       <module name="eureka_server" options="-parameters" />
+       <module name="homepage" options="-parameters" />
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/homepage/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/Budget/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/signup/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/api_gateway/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/eureka_lab5/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/eureka/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/eureka_server/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_23\" default=\"true\" project-jdk-name=\"23\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 7573a60337249ff3aa879cce973a07634be84bee)
++++ b/.idea/misc.xml	(date 1744318469984)
+@@ -11,6 +11,8 @@
+         <option value="$PROJECT_DIR$/eureka_lab5/pom.xml" />
+         <option value="$PROJECT_DIR$/eureka/pom.xml" />
+         <option value="$PROJECT_DIR$/eureka_server/pom.xml" />
++        <option value="$PROJECT_DIR$/config-server/pom.xml" />
++        <option value="$PROJECT_DIR$/config-client/pom.xml" />
+       </list>
+     </option>
+   </component>
+Index: homepage/target/classes/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.application.name=homepage\r\nserver.port=8082\r\nspring.datasource.url=jdbc:mysql://localhost:3306/financetracker\r\nspring.datasource.username=root\r\nspring.datasource.password=root\r\n\r\nspring.jpa.hibernate.ddl-auto=update\r\nspring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver\r\nspring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect\r\n\r\n# Eureka Client Configuration\r\neureka.client.service-url.defaultZone=http://localhost:8761/eureka/\r\neureka.client.register-with-eureka=true\r\neureka.client.fetch-registry=true\r\n\r\n\r\nspring.jpa.show-sql=true
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/homepage/target/classes/application.properties b/homepage/target/classes/application.properties
+--- a/homepage/target/classes/application.properties	(revision 7573a60337249ff3aa879cce973a07634be84bee)
++++ b/homepage/target/classes/application.properties	(date 1744318433886)
+@@ -14,4 +14,9 @@
+ eureka.client.fetch-registry=true
+ 
+ 
+-spring.jpa.show-sql=true
+\ No newline at end of file
++spring.jpa.show-sql=true
++spring.config.import=optional:configserver:http://config-server:8888
++spring.profiles.active=default
++
++# Enable refresh
++management.endpoints.web.exposure.include=refresh
+\ No newline at end of file
+Index: eureka_server/target/classes/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.application.name=eureka_server\r\n\r\nserver.port=8761\r\neureka.client.register-with-eureka=false\r\neureka.client.fetch-registry=false\r\n\r\nspring.datasource.url=jdbc:mysql://localhost:3306/financetracker\r\nspring.datasource.username=root\r\nspring.datasource.password=root\r\n\r\nspring.jpa.hibernate.ddl-auto=update\r\nspring.jpa.show-sql=true
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/eureka_server/target/classes/application.properties b/eureka_server/target/classes/application.properties
+--- a/eureka_server/target/classes/application.properties	(revision 7573a60337249ff3aa879cce973a07634be84bee)
++++ b/eureka_server/target/classes/application.properties	(date 1744318433469)
+@@ -9,4 +9,9 @@
+ spring.datasource.password=root
+ 
+ spring.jpa.hibernate.ddl-auto=update
+-spring.jpa.show-sql=true
+\ No newline at end of file
++spring.jpa.show-sql=true
++spring.config.import=optional:configserver:http://config-server:8888
++spring.profiles.active=default
++
++# Enable refresh
++management.endpoints.web.exposure.include=refresh
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Encoding\">\r\n    <file url=\"file://$PROJECT_DIR$/Budget/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/api_gateway/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/eureka/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/eureka_server/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/homepage/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/signup/src/main/java\" charset=\"UTF-8\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+--- a/.idea/encodings.xml	(revision 7573a60337249ff3aa879cce973a07634be84bee)
++++ b/.idea/encodings.xml	(date 1744318469990)
+@@ -3,6 +3,8 @@
+   <component name="Encoding">
+     <file url="file://$PROJECT_DIR$/Budget/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/api_gateway/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/config-client/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/config-server/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/eureka/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/eureka_server/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/homepage/src/main/java" charset="UTF-8" />
+Index: config-client/src/main/java/com/example/config_client/config_controller/ConfigController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/config-client/src/main/java/com/example/config_client/config_controller/ConfigController.java b/config-client/src/main/java/com/example/config_client/config_controller/ConfigController.java
+new file mode 100644
+--- /dev/null	(date 1744318469910)
++++ b/config-client/src/main/java/com/example/config_client/config_controller/ConfigController.java	(date 1744318469910)
+@@ -0,0 +1,20 @@
++package com.example.config_client.config_controller;
++
++import org.springframework.beans.factory.annotation.Value;
++import org.springframework.web.bind.annotation.GetMapping;
++import org.springframework.web.bind.annotation.RequestMapping;
++import org.springframework.web.bind.annotation.RestController;
++
++@RestController
++@RequestMapping("/config")
++public class ConfigController {
++
++    @Value("${some.property:Default Value}")
++    private String someProperty;
++
++    @GetMapping("/property")
++    public String getProperty() {
++        return "Configured Value: " + someProperty;
++    }
++}
++
+Index: docker-compose.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docker-compose.yml b/docker-compose.yml
+new file mode 100644
+--- /dev/null	(date 1744314740214)
++++ b/docker-compose.yml	(date 1744314740214)
+@@ -0,0 +1,118 @@
++version: '3.8'
++
++services:
++
++  # MySQL Database
++  mysql:
++    image: mysql:8
++    container_name: mysql_db
++    restart: always
++    environment:
++      MYSQL_ROOT_PASSWORD: root
++      MYSQL_DATABASE: financetracker
++    ports:
++      - "3306:3306"
++    networks:
++      - finance-network
++
++  # Spring Cloud Config Server
++  config-server:
++    image: config-server
++    container_name: config_server
++    build: ./config_server
++    ports:
++      - "8888:8888"
++    environment:
++      SPRING_PROFILES_ACTIVE: native
++      SPRING_CLOUD_CONFIG_SERVER_GIT_URI: "https://github.com/your-github/config-repo"
++    depends_on:
++      - mysql
++    networks:
++      - finance-network
++
++  # Eureka Server
++  eureka-server:
++    image: eureka-server
++    container_name: eureka_server
++    build: ./eureka_server
++    ports:
++      - "8761:8761"
++    environment:
++      SPRING_PROFILES_ACTIVE: dev
++      EUREKA_CLIENT_REGISTER_WITH_EUREKA: "false"
++      EUREKA_CLIENT_FETCH_REGISTRY: "false"
++    depends_on:
++      - config-server
++    networks:
++      - finance-network
++
++  # API Gateway
++  api-gateway:
++    image: api-gateway
++    container_name: api_gateway
++    build: ./api_gateway
++    ports:
++      - "9091:9091"
++    environment:
++      SPRING_PROFILES_ACTIVE: dev
++      SPRING_CONFIG_IMPORT: "configserver:http://config-server:8888/"
++    depends_on:
++      - config-server
++      - eureka-server
++    networks:
++      - finance-network
++
++  # Budget Service
++  budget-service:
++    image: budget-service
++    container_name: budget_service
++    build: ./Budget
++    ports:
++      - "8083:8083"
++    environment:
++      SPRING_PROFILES_ACTIVE: dev
++      SPRING_CONFIG_IMPORT: "configserver:http://config-server:8888/"
++    depends_on:
++      - config-server
++      - eureka-server
++      - mysql
++    networks:
++      - finance-network
++
++  # Signup Service
++  signup-service:
++    image: signup-service
++    container_name: signup_service
++    build: ./signup
++    ports:
++      - "8081:8081"
++    environment:
++      SPRING_PROFILES_ACTIVE: dev
++      SPRING_CONFIG_IMPORT: "configserver:http://config-server:8888/"
++    depends_on:
++      - config-server
++      - eureka-server
++      - mysql
++    networks:
++      - finance-network
++
++  # Homepage Service
++  homepage-service:
++    image: homepage-service
++    container_name: homepage_service
++    build: ./homepage
++    ports:
++      - "8082:8082"
++    environment:
++      SPRING_PROFILES_ACTIVE: dev
++      SPRING_CONFIG_IMPORT: "configserver:http://config-server:8888/"
++    depends_on:
++      - config-server
++      - eureka-server
++      - mysql
++    networks:
++      - finance-network
++
++networks:
++  finance-network:
++    driver: bridge
+Index: signup/target/classes/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.application.name=signup\r\nserver.port=8081\r\nspring.datasource.url=jdbc:mysql://localhost:3306/financetracker\r\nspring.datasource.username=root\r\nspring.datasource.password=root\r\n\r\nspring.jpa.hibernate.ddl-auto=update\r\nspring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver\r\nspring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect\r\n\r\n# Eureka Client Configuration\r\neureka.client.service-url.defaultZone=http://localhost:8761/eureka/\r\neureka.client.register-with-eureka=true\r\neureka.client.fetch-registry=true\r\n\r\nspring.jpa.show-sql=true
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/signup/target/classes/application.properties b/signup/target/classes/application.properties
+--- a/signup/target/classes/application.properties	(revision 7573a60337249ff3aa879cce973a07634be84bee)
++++ b/signup/target/classes/application.properties	(date 1744318434251)
+@@ -13,4 +13,9 @@
+ eureka.client.register-with-eureka=true
+ eureka.client.fetch-registry=true
+ 
+-spring.jpa.show-sql=true
+\ No newline at end of file
++spring.jpa.show-sql=true
++spring.config.import=optional:configserver:http://config-server:8888
++spring.profiles.active=default
++
++# Enable refresh
++management.endpoints.web.exposure.include=refresh
+\ No newline at end of file
+Index: api_gateway/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.application.name=api_gateway\r\nserver.port=9091\r\n\r\neureka.client.service-url.defaultZone=http://localhost:8761/eureka/\r\n\r\nspring.cloud.gateway.routes[0].id=microservice1\r\nspring.cloud.gateway.routes[0].uri=lb://ms1_lab5\r\nspring.cloud.gateway.routes[0].predicates[0]=Path=/ms1/**\r\n\r\nspring.cloud.gateway.routes[1].id=microservice2\r\nspring.cloud.gateway.routes[1].uri=lb://ms2_lab5\r\nspring.cloud.gateway.routes[1].predicates[0]=Path=/ms2/**\r\nspring.cloud.gateway.discovery.locator.enabled=true\r\nspring.cloud.gateway.discovery.locator.lower-case-service-id=true\r\n\r\nspring.datasource.url=jdbc:mysql://localhost:3306/financetracker\r\nspring.datasource.username=root\r\nspring.datasource.password=root\r\n\r\nspring.jpa.hibernate.ddl-auto=update\r\nspring.jpa.show-sql=true
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/api_gateway/src/main/resources/application.properties b/api_gateway/src/main/resources/application.properties
+--- a/api_gateway/src/main/resources/application.properties	(revision 7573a60337249ff3aa879cce973a07634be84bee)
++++ b/api_gateway/src/main/resources/application.properties	(date 1744317281501)
+@@ -18,4 +18,9 @@
+ spring.datasource.password=root
+ 
+ spring.jpa.hibernate.ddl-auto=update
+-spring.jpa.show-sql=true
+\ No newline at end of file
++spring.jpa.show-sql=true
++spring.config.import=optional:configserver:http://config-server:8888
++spring.profiles.active=default
++
++# Enable refresh
++management.endpoints.web.exposure.include=refresh
+\ No newline at end of file
+Index: homepage/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.application.name=homepage\r\nserver.port=8082\r\nspring.datasource.url=jdbc:mysql://localhost:3306/financetracker\r\nspring.datasource.username=root\r\nspring.datasource.password=root\r\n\r\nspring.jpa.hibernate.ddl-auto=update\r\nspring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver\r\nspring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect\r\n\r\n# Eureka Client Configuration\r\neureka.client.service-url.defaultZone=http://localhost:8761/eureka/\r\neureka.client.register-with-eureka=true\r\neureka.client.fetch-registry=true\r\n\r\n\r\nspring.jpa.show-sql=true
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/homepage/src/main/resources/application.properties b/homepage/src/main/resources/application.properties
+--- a/homepage/src/main/resources/application.properties	(revision 7573a60337249ff3aa879cce973a07634be84bee)
++++ b/homepage/src/main/resources/application.properties	(date 1744317341655)
+@@ -14,4 +14,9 @@
+ eureka.client.fetch-registry=true
+ 
+ 
+-spring.jpa.show-sql=true
+\ No newline at end of file
++spring.jpa.show-sql=true
++spring.config.import=optional:configserver:http://config-server:8888
++spring.profiles.active=default
++
++# Enable refresh
++management.endpoints.web.exposure.include=refresh
+\ No newline at end of file
+Index: eureka_server/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.application.name=eureka_server\r\n\r\nserver.port=8761\r\neureka.client.register-with-eureka=false\r\neureka.client.fetch-registry=false\r\n\r\nspring.datasource.url=jdbc:mysql://localhost:3306/financetracker\r\nspring.datasource.username=root\r\nspring.datasource.password=root\r\n\r\nspring.jpa.hibernate.ddl-auto=update\r\nspring.jpa.show-sql=true
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/eureka_server/src/main/resources/application.properties b/eureka_server/src/main/resources/application.properties
+--- a/eureka_server/src/main/resources/application.properties	(revision 7573a60337249ff3aa879cce973a07634be84bee)
++++ b/eureka_server/src/main/resources/application.properties	(date 1744317324838)
+@@ -9,4 +9,9 @@
+ spring.datasource.password=root
+ 
+ spring.jpa.hibernate.ddl-auto=update
+-spring.jpa.show-sql=true
+\ No newline at end of file
++spring.jpa.show-sql=true
++spring.config.import=optional:configserver:http://config-server:8888
++spring.profiles.active=default
++
++# Enable refresh
++management.endpoints.web.exposure.include=refresh
+\ No newline at end of file
+Index: api_gateway/target/classes/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.application.name=api_gateway\r\nserver.port=9091\r\n\r\neureka.client.service-url.defaultZone=http://localhost:8761/eureka/\r\n\r\nspring.cloud.gateway.routes[0].id=microservice1\r\nspring.cloud.gateway.routes[0].uri=lb://ms1_lab5\r\nspring.cloud.gateway.routes[0].predicates[0]=Path=/ms1/**\r\n\r\nspring.cloud.gateway.routes[1].id=microservice2\r\nspring.cloud.gateway.routes[1].uri=lb://ms2_lab5\r\nspring.cloud.gateway.routes[1].predicates[0]=Path=/ms2/**\r\nspring.cloud.gateway.discovery.locator.enabled=true\r\nspring.cloud.gateway.discovery.locator.lower-case-service-id=true\r\n\r\nspring.datasource.url=jdbc:mysql://localhost:3306/financetracker\r\nspring.datasource.username=root\r\nspring.datasource.password=root\r\n\r\nspring.jpa.hibernate.ddl-auto=update\r\nspring.jpa.show-sql=true
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/api_gateway/target/classes/application.properties b/api_gateway/target/classes/application.properties
+--- a/api_gateway/target/classes/application.properties	(revision 7573a60337249ff3aa879cce973a07634be84bee)
++++ b/api_gateway/target/classes/application.properties	(date 1744318432642)
+@@ -18,4 +18,9 @@
+ spring.datasource.password=root
+ 
+ spring.jpa.hibernate.ddl-auto=update
+-spring.jpa.show-sql=true
+\ No newline at end of file
++spring.jpa.show-sql=true
++spring.config.import=optional:configserver:http://config-server:8888
++spring.profiles.active=default
++
++# Enable refresh
++management.endpoints.web.exposure.include=refresh
+\ No newline at end of file
+Index: Budget/target/classes/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.application.name=Budget\r\nserver.port=8083\r\nspring.datasource.url=jdbc:mysql://localhost:3306/financetracker\r\nspring.datasource.username=root\r\nspring.datasource.password=root\r\n\r\nspring.jpa.hibernate.ddl-auto=update\r\nspring.jpa.show-sql=true\r\nspring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver\r\nspring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect\r\n\r\n# Eureka Client Configuration\r\neureka.client.service-url.defaultZone=http://localhost:8761/eureka/\r\neureka.client.register-with-eureka=true\r\neureka.client.fetch-registry=true\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/Budget/target/classes/application.properties b/Budget/target/classes/application.properties
+--- a/Budget/target/classes/application.properties	(revision 7573a60337249ff3aa879cce973a07634be84bee)
++++ b/Budget/target/classes/application.properties	(date 1744318432210)
+@@ -14,3 +14,8 @@
+ eureka.client.register-with-eureka=true
+ eureka.client.fetch-registry=true
+ 
++spring.config.import=optional:configserver:http://config-server:8888
++spring.profiles.active=default
++
++# Enable refresh
++management.endpoints.web.exposure.include=refresh
+\ No newline at end of file
