@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="Updating for cleaning and package">
-      <change afterPath="$PROJECT_DIR$/Budget/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka_server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/signup/Dockerfile" afterDir="false" />
+    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="Dockerfile for each page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/signup/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,36 +53,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.ApiGatewayApplication.executor": "Run",
-    "Application.BudgetApplication.executor": "Run",
-    "Application.EurekaServerApplication.executor": "Run",
-    "Application.HomepageApplication.executor": "Run",
-    "Application.SignupApplication.executor": "Run",
-    "Maven.Budget [clean].executor": "Run",
-    "Maven.Budget [package].executor": "Run",
-    "Maven.api_gateway [clean].executor": "Run",
-    "Maven.api_gateway [package].executor": "Run",
-    "Maven.eureka_server [clean].executor": "Run",
-    "Maven.eureka_server [package].executor": "Run",
-    "Maven.homepage [clean].executor": "Run",
-    "Maven.homepage [package].executor": "Run",
-    "Maven.signup [clean].executor": "Run",
-    "Maven.signup [package].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/B108_Spring_MSA/FinanceTracker",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BudgetApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HomepageApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SignupApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Budget [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Budget [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.api_gateway [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.api_gateway [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.eureka_server [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.eureka_server [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.homepage [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.homepage [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.signup [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.signup [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/B108_Spring_MSA/Lab13&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="homepage" />
@@ -119,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743756312523</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dockerfile for each page">
+      <option name="closed" value="true" />
+      <created>1743757020997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743757020997</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +145,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating for cleaning and package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating for cleaning and package" />
+    <MESSAGE value="Dockerfile for each page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dockerfile for each page" />
   </component>
 </project>
