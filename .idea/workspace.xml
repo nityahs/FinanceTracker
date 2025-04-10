@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="application.properties update for docker">
-      <change afterPath="$PROJECT_DIR$/config-client/src/main/java/com/example/config_client/config_controller/ConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="Config server and config client creation">
+      <change afterPath="$PROJECT_DIR$/config-client/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Budget/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Budget/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka_server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/signup/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Dockerfile" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -75,6 +62,10 @@
     "Maven.Budget [package].executor": "Run",
     "Maven.api_gateway [clean].executor": "Run",
     "Maven.api_gateway [package].executor": "Run",
+    "Maven.config-client [clean].executor": "Run",
+    "Maven.config-client [package].executor": "Run",
+    "Maven.config-server [clean].executor": "Run",
+    "Maven.config-server [package].executor": "Run",
     "Maven.eureka_server [clean].executor": "Run",
     "Maven.eureka_server [package].executor": "Run",
     "Maven.homepage [clean].executor": "Run",
@@ -147,7 +138,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744308867296</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Config server and config client creation">
+      <option name="closed" value="true" />
+      <created>1744318917560</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744318917560</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Config server and config client creation">
+      <option name="closed" value="true" />
+      <created>1744319090638</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744319090638</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +172,7 @@
     <MESSAGE value="Updating for cleaning and package" />
     <MESSAGE value="Dockerfile for each page" />
     <MESSAGE value="application.properties update for docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="application.properties update for docker" />
+    <MESSAGE value="Config server and config client creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Config server and config client creation" />
   </component>
 </project>
