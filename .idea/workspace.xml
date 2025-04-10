@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="Dockerfile for each page">
+    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="application.properties update for docker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Budget/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/signup/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/target/api_gateway-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/target/api_gateway-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/target/surefire-reports/TEST-com.example.api_gateway.ApiGatewayApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/surefire-reports/TEST-com.example.api_gateway.ApiGatewayApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/target/surefire-reports/com.example.api_gateway.ApiGatewayApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/surefire-reports/com.example.api_gateway.ApiGatewayApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743757020997</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="application.properties update for docker">
+      <option name="closed" value="true" />
+      <created>1744308867296</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744308867296</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating for cleaning and package" />
     <MESSAGE value="Dockerfile for each page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dockerfile for each page" />
+    <MESSAGE value="application.properties update for docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="application.properties update for docker" />
   </component>
 </project>
