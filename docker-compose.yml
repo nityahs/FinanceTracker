@@ -1,0 +1,118 @@
+version: '3.8'
+
+services:
+
+  # MySQL Database
+  mysql:
+    image: mysql:8
+    container_name: mysql_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: financetracker
+    ports:
+      - "3306:3306"
+    networks:
+      - finance-network
+
+  # Spring Cloud Config Server
+  config-server:
+    image: config-server
+    container_name: config_server
+    build: ./config_server
+    ports:
+      - "8888:8888"
+    environment:
+      SPRING_PROFILES_ACTIVE: native
+      SPRING_CLOUD_CONFIG_SERVER_GIT_URI: "https://github.com/your-github/config-repo"
+    depends_on:
+      - mysql
+    networks:
+      - finance-network
+
+  # Eureka Server
+  eureka-server:
+    image: eureka-server
+    container_name: eureka_server
+    build: ./eureka_server
+    ports:
+      - "8761:8761"
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
+      EUREKA_CLIENT_REGISTER_WITH_EUREKA: "false"
+      EUREKA_CLIENT_FETCH_REGISTRY: "false"
+    depends_on:
+      - config-server
+    networks:
+      - finance-network
+
+  # API Gateway
+  api-gateway:
+    image: api-gateway
+    container_name: api_gateway
+    build: ./api_gateway
+    ports:
+      - "9091:9091"
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
+      SPRING_CONFIG_IMPORT: "configserver:http://config-server:8888/"
+    depends_on:
+      - config-server
+      - eureka-server
+    networks:
+      - finance-network
+
+  # Budget Service
+  budget-service:
+    image: budget-service
+    container_name: budget_service
+    build: ./Budget
+    ports:
+      - "8083:8083"
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
+      SPRING_CONFIG_IMPORT: "configserver:http://config-server:8888/"
+    depends_on:
+      - config-server
+      - eureka-server
+      - mysql
+    networks:
+      - finance-network
+
+  # Signup Service
+  signup-service:
+    image: signup-service
+    container_name: signup_service
+    build: ./signup
+    ports:
+      - "8081:8081"
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
+      SPRING_CONFIG_IMPORT: "configserver:http://config-server:8888/"
+    depends_on:
+      - config-server
+      - eureka-server
+      - mysql
+    networks:
+      - finance-network
+
+  # Homepage Service
+  homepage-service:
+    image: homepage-service
+    container_name: homepage_service
+    build: ./homepage
+    ports:
+      - "8082:8082"
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
+      SPRING_CONFIG_IMPORT: "configserver:http://config-server:8888/"
+    depends_on:
+      - config-server
+      - eureka-server
+      - mysql
+    networks:
+      - finance-network
+
+networks:
+  finance-network:
+    driver: bridge

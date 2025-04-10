@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="application.properties update for docker">
+      <change afterPath="$PROJECT_DIR$/config-client/src/main/java/com/example/config_client/config_controller/ConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/target/api_gateway-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/target/api_gateway-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/target/surefire-reports/TEST-com.example.api_gateway.ApiGatewayApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/surefire-reports/TEST-com.example.api_gateway.ApiGatewayApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/target/surefire-reports/com.example.api_gateway.ApiGatewayApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/surefire-reports/com.example.api_gateway.ApiGatewayApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/signup/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,36 +61,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BudgetApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomepageApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SignupApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Budget [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Budget [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.api_gateway [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.api_gateway [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.eureka_server [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.eureka_server [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.homepage [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.homepage [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.signup [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.signup [package].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/B108_Spring_MSA/Lab13&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.ApiGatewayApplication.executor": "Run",
+    "Application.BudgetApplication.executor": "Run",
+    "Application.ConfigClientApplication.executor": "Run",
+    "Application.ConfigServerApplication.executor": "Run",
+    "Application.EurekaServerApplication.executor": "Run",
+    "Application.HomepageApplication.executor": "Run",
+    "Application.SignupApplication.executor": "Run",
+    "Maven.Budget [clean].executor": "Run",
+    "Maven.Budget [package].executor": "Run",
+    "Maven.api_gateway [clean].executor": "Run",
+    "Maven.api_gateway [package].executor": "Run",
+    "Maven.eureka_server [clean].executor": "Run",
+    "Maven.eureka_server [package].executor": "Run",
+    "Maven.homepage [clean].executor": "Run",
+    "Maven.homepage [package].executor": "Run",
+    "Maven.signup [clean].executor": "Run",
+    "Maven.signup [package].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/B108_Spring_MSA/FinanceTracker/config-client",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="homepage" />

@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+        <module name="config-client" />
         <module name="eureka_server" />
         <module name="Budget" />
         <module name="api_gateway" />
@@ -21,6 +23,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Budget" options="-parameters" />
       <module name="api_gateway" options="-parameters" />
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="eureka_server" options="-parameters" />
       <module name="homepage" options="-parameters" />
