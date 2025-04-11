@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="dependency for swagger api">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Budget/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Budget/src/main/java/com/example/Budget/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/src/main/java/com/example/Budget/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/example/homepage/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/src/main/java/com/example/homepage/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/target/classes/com/example/homepage/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/target/homepage-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/target/homepage-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/target/homepage-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/target/homepage-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-    </list>
+    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="swagger update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -220,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744350335914</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="swagger update">
+      <option name="closed" value="true" />
+      <created>1744364120950</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744364120950</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +240,7 @@
     <MESSAGE value="kubernetes for config-server" />
     <MESSAGE value="kubernetes for all files" />
     <MESSAGE value="dependency for swagger api" />
-    <option name="LAST_COMMIT_MESSAGE" value="dependency for swagger api" />
+    <MESSAGE value="swagger update" />
+    <option name="LAST_COMMIT_MESSAGE" value="swagger update" />
   </component>
 </project>
