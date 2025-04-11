@@ -77,7 +77,6 @@ Budget Microservice (8083)
 -> Backend: Spring Boot (Java)
 -> Database: MySQL
 -> Microservices: Spring Cloud
--> Authentication: JWT (Upcoming Feature)
 -> Tools: Postman, IntelliJ IDEA
 
 
