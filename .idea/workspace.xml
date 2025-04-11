@@ -4,19 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="kubernetes for all files">
+    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="dependency for swagger api">
+      <change afterPath="$PROJECT_DIR$/Budget/src/main/java/com/example/Budget/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gateway/src/main/java/com/example/api_gateway/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/src/main/java/com/example/config_client/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/com/example/config_server/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_server/src/main/java/com/example/eureka_server/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage/src/main/java/com/example/homepage/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signup/src/main/java/com/example/signup/config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Budget/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Budget/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/target/Budget-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/Budget-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/target/Budget-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/Budget-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/target/surefire-reports/TEST-com.example.Budget.BudgetApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/surefire-reports/TEST-com.example.Budget.BudgetApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/target/surefire-reports/com.example.Budget.BudgetApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/target/surefire-reports/com.example.Budget.BudgetApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/target/api_gateway-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/api_gateway-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/target/api_gateway-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/api_gateway-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/target/surefire-reports/TEST-com.example.api_gateway.ApiGatewayApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/surefire-reports/TEST-com.example.api_gateway.ApiGatewayApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/target/surefire-reports/com.example.api_gateway.ApiGatewayApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/target/surefire-reports/com.example.api_gateway.ApiGatewayApplicationTests.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka_server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/target/eureka_server-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/target/eureka_server-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/target/eureka_server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/target/eureka_server-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/target/surefire-reports/TEST-com.example.eureka_server.EurekaServerApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/target/surefire-reports/TEST-com.example.eureka_server.EurekaServerApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/target/surefire-reports/com.example.eureka_server.EurekaServerApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/target/surefire-reports/com.example.eureka_server.EurekaServerApplicationTests.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/target/homepage-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/target/homepage-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/target/homepage-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/target/homepage-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/signup/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/signup/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/signup-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/signup-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/signup-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/signup-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/surefire-reports/TEST-com.example.signup.SignupApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/surefire-reports/TEST-com.example.signup.SignupApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/target/surefire-reports/com.example.signup.SignupApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/signup/target/surefire-reports/com.example.signup.SignupApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +56,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,42 +87,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BudgetApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConfigClientApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomepageApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SignupApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Budget [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Budget [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.api_gateway [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.api_gateway [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.config-client [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.config-client [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.config-server [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.config-server [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.eureka_server [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.eureka_server [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.homepage [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.homepage [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.signup [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.signup [package].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/B108_Spring_MSA/FinanceTracker/config-client&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.ApiGatewayApplication.executor": "Run",
+    "Application.BudgetApplication.executor": "Run",
+    "Application.ConfigClientApplication.executor": "Run",
+    "Application.ConfigServerApplication.executor": "Run",
+    "Application.EurekaServerApplication.executor": "Run",
+    "Application.HomepageApplication.executor": "Run",
+    "Application.SignupApplication.executor": "Run",
+    "Maven.Budget [clean].executor": "Run",
+    "Maven.Budget [package].executor": "Run",
+    "Maven.api_gateway [clean].executor": "Run",
+    "Maven.api_gateway [package].executor": "Run",
+    "Maven.config-client [clean].executor": "Run",
+    "Maven.config-client [package].executor": "Run",
+    "Maven.config-server [clean].executor": "Run",
+    "Maven.config-server [package].executor": "Run",
+    "Maven.eureka_server [clean].executor": "Run",
+    "Maven.eureka_server [package].executor": "Run",
+    "Maven.homepage [clean].executor": "Run",
+    "Maven.homepage [package].executor": "Run",
+    "Maven.signup [clean].executor": "Run",
+    "Maven.signup [package].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/B108_Spring_MSA/FinanceTracker/signup/src",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\B108_Spring_MSA\FinanceTracker\signup\src" />
+      <recent name="C:\B108_Spring_MSA\FinanceTracker\homepage\src\main\java\com\example\homepage" />
+      <recent name="C:\B108_Spring_MSA\FinanceTracker\eureka_server\src\main\java\com\example\eureka_server" />
+      <recent name="C:\B108_Spring_MSA\FinanceTracker\config-server\src\main\java\com\example\config_server" />
+      <recent name="C:\B108_Spring_MSA\FinanceTracker\config-client\src\main\java\com\example\config_client" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="homepage" />
@@ -187,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744324027858</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="dependency for swagger api">
+      <option name="closed" value="true" />
+      <created>1744350335914</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744350335914</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +255,7 @@
     <MESSAGE value="Config server and config client creation" />
     <MESSAGE value="kubernetes for config-server" />
     <MESSAGE value="kubernetes for all files" />
-    <option name="LAST_COMMIT_MESSAGE" value="kubernetes for all files" />
+    <MESSAGE value="dependency for swagger api" />
+    <option name="LAST_COMMIT_MESSAGE" value="dependency for swagger api" />
   </component>
 </project>

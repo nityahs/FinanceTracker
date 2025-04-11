@@ -1,3 +1,4 @@
+com\example\Budget\config\SwaggerConfig.class
 com\example\Budget\service\BudgetServiceImpl.class
 com\example\Budget\entity\Budget.class
 com\example\Budget\repository\BudgetRepository.class

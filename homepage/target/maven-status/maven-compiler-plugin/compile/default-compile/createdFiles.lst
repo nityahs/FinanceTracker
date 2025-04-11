@@ -1,4 +1,5 @@
 com\example\homepage\entity\FinEntity.class
+com\example\homepage\config\SwaggerConfig.class
 com\example\homepage\repository\FinRepo.class
 com\example\homepage\service\FinServiceImpl.class
 com\example\homepage\controller\FinController.class

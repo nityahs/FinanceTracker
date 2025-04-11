@@ -4,4 +4,5 @@ com\example\signup\entity\User.class
 com\example\signup\SignupApplication.class
 com\example\signup\service\UserServiceImpl.class
 com\example\signup\repository\UserRepository.class
+com\example\signup\config\SwaggerConfig.class
 com\example\signup\controller\UserController.class
