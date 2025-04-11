@@ -11,7 +11,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: financetracker
     ports:
-      - "3306:3306"
+      - "3307:3306"
     networks:
       - finance-network
 
@@ -19,7 +19,7 @@ services:
   config-server:
     image: config-server
     container_name: config_server
-    build: ./config_server
+    build: ./config-server
     ports:
       - "8888:8888"
     environment:

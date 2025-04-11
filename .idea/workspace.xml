@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="kubernetes for config-server">
-      <change afterPath="$PROJECT_DIR$/Budget/kubernetes/budget-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Budget/kubernetes/budget-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka_server/kubernetes/eureka-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka_server/kubernetes/eureka-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage/kubernetes/homepage-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage/kubernetes/homepage-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/signup/kubernetes/signup-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/signup/kubernetes/signup-service.yaml" afterDir="false" />
+    <list default="true" id="892e60f8-8b59-4fb1-8785-50c5ddb2dbf7" name="Changes" comment="kubernetes for all files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/kubernetes/config-server-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/kubernetes/config-server-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Budget/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Budget/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/signup/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +171,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744322737494</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="kubernetes for all files">
+      <option name="closed" value="true" />
+      <created>1744324013456</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744324013456</updated>
+    </task>
+    <task id="LOCAL-00009" summary="kubernetes for all files">
+      <option name="closed" value="true" />
+      <created>1744324027858</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744324027858</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +207,7 @@
     <MESSAGE value="application.properties update for docker" />
     <MESSAGE value="Config server and config client creation" />
     <MESSAGE value="kubernetes for config-server" />
-    <option name="LAST_COMMIT_MESSAGE" value="kubernetes for config-server" />
+    <MESSAGE value="kubernetes for all files" />
+    <option name="LAST_COMMIT_MESSAGE" value="kubernetes for all files" />
   </component>
 </project>

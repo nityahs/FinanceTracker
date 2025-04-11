@@ -5,7 +5,7 @@ FROM openjdk:21-jdk-slim
 WORKDIR /app
 
 # Copy JAR file
-COPY target/budget-0.0.1-SNAPSHOT.jar /app/app.jar
+COPY target/Budget-0.0.1-SNAPSHOT.jar /app/app.jar
 
 # Expose port 8083 (Budget Service)
 EXPOSE 8083

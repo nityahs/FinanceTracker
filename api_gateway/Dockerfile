@@ -5,7 +5,7 @@ FROM openjdk:21-jdk-slim
 WORKDIR /app
 
 # Copy JAR file into container
-COPY target/api-gateway-0.0.1-SNAPSHOT.jar /app/app.jar
+COPY target/api_gateway-0.0.1-SNAPSHOT.jar /app/app.jar
 
 # Expose port 9091 (API Gateway)
 EXPOSE 9091
